@@ -13,7 +13,7 @@ import android.widget.TextView;
 import androidx.fragment.app.Fragment;
 
 public class ContactUsFragment extends Fragment {
-    TextView call,feedback,send_your_message;
+    TextView whatsapp,feedback,send_your_message;
     ImageView linkedin, instagram, github, share;
     public ContactUsFragment() {
         // Required empty public constructor
@@ -22,15 +22,19 @@ public class ContactUsFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
         View v = inflater.inflate(R.layout.fragment_contact_us, container, false);
 
-        call = v.findViewById(R.id.call);
-        call.setOnClickListener(view -> {
-            Intent callIntent = new Intent(Intent.ACTION_CALL);
-            callIntent.setData(Uri.parse("tel:+91 7620824421"));
-            startActivity(callIntent);
-
+        whatsapp = v.findViewById(R.id.whatsapp);
+        whatsapp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String uriText = "https://api.whatsapp.com/send/"+"?phone="+"7909519946"+"&text="+"Please+help+me+regarding+the+issue+:+"+"&type=phone_number&app_absent=0";
+                gotoUrl(uriText);
+            }
+            private void gotoUrl(String s) {
+                Uri uri = Uri.parse(s);
+                startActivity(new Intent(Intent.ACTION_VIEW,uri));
+            }
         });
 
 
@@ -39,7 +43,7 @@ public class ContactUsFragment extends Fragment {
 
             Intent intent = new Intent(Intent.ACTION_SENDTO);
             String uriText = "mailto:" + Uri.encode("gyarsilalsolanki011@gmail.com") + "?subject=" +
-                    Uri.encode("your email id ") + "&body=" + Uri.encode("");
+                    Uri.encode("Send Ur feedback") + "&body=" + Uri.encode("");
 
             Uri uri = Uri.parse(uriText);
             intent.setData(uri);
@@ -60,11 +64,9 @@ public class ContactUsFragment extends Fragment {
         linkedin.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                gotoUrl("https://www.linkedin.com/in/gyarsilalsolanki");
-
-
+                String uriText = "https://www.linkedin.com/in/gyarsilalsolanki";
+                gotoUrl(uriText);
             }
-
             private void gotoUrl(String s) {
                 Uri uri = Uri.parse(s);
                 startActivity(new Intent(Intent.ACTION_VIEW,uri));
@@ -75,12 +77,9 @@ public class ContactUsFragment extends Fragment {
         github.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                gotoUrl("https://github.com/gyarsilalsolanki011");
-
-
+                String uriText = "https://github.com/gyarsilalsolanki011";
+                gotoUrl(uriText);
             }
-
-
             private void gotoUrl(String s) {
                 Uri uri = Uri.parse(s);
                 startActivity(new Intent(Intent.ACTION_VIEW,uri));
@@ -92,12 +91,9 @@ public class ContactUsFragment extends Fragment {
         instagram.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                gotoUrl("https://www.instagram.com/invites/contact/?i=h3v7k8la76dm&utm_content=q90eiqa");
-
-
+                String uriText = "https://www.instagram.com/invites/contact/?i=h3v7k8la76dm&utm_content=q90eiqa";
+                gotoUrl(uriText);
             }
-
-
             private void gotoUrl(String s) {
                 Uri uri = Uri.parse(s);
                 startActivity(new Intent(Intent.ACTION_VIEW,uri));
@@ -115,7 +111,7 @@ public class ContactUsFragment extends Fragment {
             String subject = "https://github.com/gyarsilalsolanki011?tab=repositories";
             i.putExtra(Intent.EXTRA_SUBJECT,shareBody);
             i.putExtra(Intent.EXTRA_TEXT,subject);
-            startActivity(Intent.createChooser(i,"Seek my vision"));
+            startActivity(Intent.createChooser(i,"Share via"));
 
         });
         return v;
