@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.gyarsilalsolanki011.contactus.app-mergeDebugResources-30:/layout/fragment_contact_us.xml",
+        "source": "com.gyarsilalsolanki011.contactus.app-main-33:/layout/fragment_contact_us.xml"
+    },
+    {
+        "merged": "com.gyarsilalsolanki011.contactus.app-mergeDebugResources-30:/layout/activity_main.xml",
+        "source": "com.gyarsilalsolanki011.contactus.app-main-33:/layout/activity_main.xml"
+    }
+]

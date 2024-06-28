@@ -1,0 +1,114 @@
+[
+    {
+        "merged": "com.gyarsilalsolanki011.contactus.app-debug-31:/drawable_share.png.flat",
+        "source": "com.gyarsilalsolanki011.contactus.app-main-33:/drawable/share.png"
+    },
+    {
+        "merged": "com.gyarsilalsolanki011.contactus.app-debug-31:/drawable_instagram.png.flat",
+        "source": "com.gyarsilalsolanki011.contactus.app-main-33:/drawable/instagram.png"
+    },
+    {
+        "merged": "com.gyarsilalsolanki011.contactus.app-debug-31:/drawable_linkedin.png.flat",
+        "source": "com.gyarsilalsolanki011.contactus.app-main-33:/drawable/linkedin.png"
+    },
+    {
+        "merged": "com.gyarsilalsolanki011.contactus.app-debug-31:/drawable_background_shape.xml.flat",
+        "source": "com.gyarsilalsolanki011.contactus.app-main-33:/drawable/background_shape.xml"
+    },
+    {
+        "merged": "com.gyarsilalsolanki011.contactus.app-debug-31:/layout_activity_main.xml.flat",
+        "source": "com.gyarsilalsolanki011.contactus.app-main-33:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.gyarsilalsolanki011.contactus.app-debug-31:/drawable_background.xml.flat",
+        "source": "com.gyarsilalsolanki011.contactus.app-main-33:/drawable/background.xml"
+    },
+    {
+        "merged": "com.gyarsilalsolanki011.contactus.app-debug-31:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.gyarsilalsolanki011.contactus.app-main-33:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.gyarsilalsolanki011.contactus.app-debug-31:/drawable_email.png.flat",
+        "source": "com.gyarsilalsolanki011.contactus.app-main-33:/drawable/email.png"
+    },
+    {
+        "merged": "com.gyarsilalsolanki011.contactus.app-debug-31:/drawable_contact.png.flat",
+        "source": "com.gyarsilalsolanki011.contactus.app-main-33:/drawable/contact.png"
+    },
+    {
+        "merged": "com.gyarsilalsolanki011.contactus.app-debug-31:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.gyarsilalsolanki011.contactus.app-main-33:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.gyarsilalsolanki011.contactus.app-debug-31:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.gyarsilalsolanki011.contactus.app-main-33:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.gyarsilalsolanki011.contactus.app-debug-31:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.gyarsilalsolanki011.contactus.app-main-33:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.gyarsilalsolanki011.contactus.app-debug-31:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.gyarsilalsolanki011.contactus.app-main-33:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.gyarsilalsolanki011.contactus.app-debug-31:/drawable_github.png.flat",
+        "source": "com.gyarsilalsolanki011.contactus.app-main-33:/drawable/github.png"
+    },
+    {
+        "merged": "com.gyarsilalsolanki011.contactus.app-debug-31:/layout_fragment_contact_us.xml.flat",
+        "source": "com.gyarsilalsolanki011.contactus.app-main-33:/layout/fragment_contact_us.xml"
+    },
+    {
+        "merged": "com.gyarsilalsolanki011.contactus.app-debug-31:/drawable_phone_call.png.flat",
+        "source": "com.gyarsilalsolanki011.contactus.app-main-33:/drawable/phone_call.png"
+    },
+    {
+        "merged": "com.gyarsilalsolanki011.contactus.app-debug-31:/xml_backup_rules.xml.flat",
+        "source": "com.gyarsilalsolanki011.contactus.app-main-33:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.gyarsilalsolanki011.contactus.app-debug-31:/drawable_question.png.flat",
+        "source": "com.gyarsilalsolanki011.contactus.app-main-33:/drawable/question.png"
+    },
+    {
+        "merged": "com.gyarsilalsolanki011.contactus.app-debug-31:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.gyarsilalsolanki011.contactus.app-main-33:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.gyarsilalsolanki011.contactus.app-debug-31:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.gyarsilalsolanki011.contactus.app-main-33:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.gyarsilalsolanki011.contactus.app-debug-31:/xml_data_extraction_rules.xml.flat",
+        "source": "com.gyarsilalsolanki011.contactus.app-main-33:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.gyarsilalsolanki011.contactus.app-debug-31:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.gyarsilalsolanki011.contactus.app-main-33:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.gyarsilalsolanki011.contactus.app-debug-31:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.gyarsilalsolanki011.contactus.app-main-33:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.gyarsilalsolanki011.contactus.app-debug-31:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.gyarsilalsolanki011.contactus.app-main-33:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.gyarsilalsolanki011.contactus.app-debug-31:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.gyarsilalsolanki011.contactus.app-main-33:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.gyarsilalsolanki011.contactus.app-debug-31:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.gyarsilalsolanki011.contactus.app-main-33:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.gyarsilalsolanki011.contactus.app-debug-31:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.gyarsilalsolanki011.contactus.app-main-33:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.gyarsilalsolanki011.contactus.app-debug-31:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.gyarsilalsolanki011.contactus.app-main-33:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    }
+]
