@@ -12,11 +12,10 @@ drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable instagram
 drawable linkedin
-drawable phone_call
 drawable question
 drawable share
+drawable whatsapp
 id bg_img
-id call
 id card_view
 id contact
 id contact_btn
@@ -35,6 +34,7 @@ id linkedin
 id mail_img
 id send_your_message
 id share
+id whatsapp
 layout activity_main
 layout fragment_contact_us
 mipmap ic_launcher
@@ -44,9 +44,9 @@ string ask_your_query
 string email_address
 string email_id
 string image
-string phone_no
 string phone_number
 string send_your_message
+string whatsapp
 style Base.Theme.ContactUS
 style Theme.Button.Bold
 style Theme.ContactUS

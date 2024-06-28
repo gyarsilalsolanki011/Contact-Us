@@ -28,7 +28,8 @@ public class ContactUsFragment extends Fragment {
         whatsapp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String uriText = "https://api.whatsapp.com/send/"+"?phone="+"7909519946"+"&text="+"Please+help+me+regarding+the+issue+:+"+"&type=phone_number&app_absent=0";
+                String uriText = "https://api.whatsapp.com/send/"+"?phone="+"7909519946"+"&text="+
+                        "Please+help+me+regarding+the+issue+:+"+"&type=phone_number&app_absent=0";
                 gotoUrl(uriText);
             }
             private void gotoUrl(String s) {
@@ -43,7 +44,7 @@ public class ContactUsFragment extends Fragment {
 
             Intent intent = new Intent(Intent.ACTION_SENDTO);
             String uriText = "mailto:" + Uri.encode("gyarsilalsolanki011@gmail.com") + "?subject=" +
-                    Uri.encode("Send Ur feedback") + "&body=" + Uri.encode("");
+                    Uri.encode("Enter Your email") + "&body=" + Uri.encode("");
 
             Uri uri = Uri.parse(uriText);
             intent.setData(uri);
@@ -55,8 +56,13 @@ public class ContactUsFragment extends Fragment {
 
         send_your_message = v.findViewById(R.id.send_your_message);
         send_your_message.setOnClickListener(v1 -> {
-            Intent intent = new Intent(getContext(), MainActivity.class);
-            startActivity(intent);
+            Intent intent = new Intent(Intent.ACTION_SENDTO);
+            String uriText = "mailto:" + Uri.encode("gyarsials105@gmail.com") + "?subject=" +
+                    Uri.encode("Ask yor query") + "&body=" + Uri.encode("please make sure to write name and phone number too");
+
+            Uri uri = Uri.parse(uriText);
+            intent.setData(uri);
+            startActivity(Intent.createChooser(intent, "Send Email"));
         });
 
 
@@ -91,7 +97,7 @@ public class ContactUsFragment extends Fragment {
         instagram.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                String uriText = "https://www.instagram.com/invites/contact/?i=h3v7k8la76dm&utm_content=q90eiqa";
+                String uriText = "https://www.instagram.com/itz_gsl_tiger?igsh=czZoZmo4emZuYjIz";
                 gotoUrl(uriText);
             }
             private void gotoUrl(String s) {

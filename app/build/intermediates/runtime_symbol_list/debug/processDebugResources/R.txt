@@ -3100,12 +3100,12 @@ int drawable notification_template_icon_bg 0x7f0700e7
 int drawable notification_template_icon_low_bg 0x7f0700e8
 int drawable notification_tile_bg 0x7f0700e9
 int drawable notify_panel_notification_icon_bg 0x7f0700ea
-int drawable phone_call 0x7f0700eb
 int drawable question 0x7f0700ec
 int drawable share 0x7f0700ed
 int drawable test_level_drawable 0x7f0700ee
 int drawable tooltip_frame_dark 0x7f0700ef
 int drawable tooltip_frame_light 0x7f0700f0
+int drawable whatsapp 0x7f0700f1
 int id ALT 0x7f080000
 int id BOTTOM_END 0x7f080001
 int id BOTTOM_START 0x7f080002
@@ -3207,7 +3207,6 @@ int id bounceEnd 0x7f080061
 int id bounceStart 0x7f080062
 int id buttonPanel 0x7f080063
 int id cache_measures 0x7f080064
-int id call 0x7f080065
 int id callMeasure 0x7f080066
 int id cancel_button 0x7f080067
 int id card_view 0x7f080068
@@ -3617,6 +3616,7 @@ int id view_tree_view_model_store_owner 0x7f0801fb
 int id visible 0x7f0801fc
 int id visible_removing_fragment_view_tag 0x7f0801fd
 int id west 0x7f0801fe
+int id whatsapp 0x7f080207
 int id withText 0x7f0801ff
 int id with_icon 0x7f080200
 int id withinBounds 0x7f080201
@@ -3987,7 +3987,6 @@ int string path_password_eye 0x7f0f00a0
 int string path_password_eye_mask_strike_through 0x7f0f00a1
 int string path_password_eye_mask_visible 0x7f0f00a2
 int string path_password_strike_through 0x7f0f00a3
-int string phone_no 0x7f0f00a4
 int string phone_number 0x7f0f00a5
 int string search_menu_title 0x7f0f00a6
 int string searchbar_scrolling_view_behavior 0x7f0f00a7
@@ -3997,6 +3996,7 @@ int string send_your_message 0x7f0f00aa
 int string side_sheet_accessibility_pane_title 0x7f0f00ab
 int string side_sheet_behavior 0x7f0f00ac
 int string status_bar_notification_info_overflow 0x7f0f00ad
+int string whatsapp 0x7f0f00ae
 int style AlertDialog_AppCompat 0x7f100000
 int style AlertDialog_AppCompat_Light 0x7f100001
 int style Animation_AppCompat_Dialog 0x7f100002

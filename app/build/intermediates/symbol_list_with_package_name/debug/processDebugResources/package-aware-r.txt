@@ -3101,12 +3101,12 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
-drawable phone_call
 drawable question
 drawable share
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable whatsapp
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -3208,7 +3208,6 @@ id bounceEnd
 id bounceStart
 id buttonPanel
 id cache_measures
-id call
 id callMeasure
 id cancel_button
 id card_view
@@ -3618,6 +3617,7 @@ id view_tree_view_model_store_owner
 id visible
 id visible_removing_fragment_view_tag
 id west
+id whatsapp
 id withText
 id with_icon
 id withinBounds
@@ -3988,7 +3988,6 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
-string phone_no
 string phone_number
 string search_menu_title
 string searchbar_scrolling_view_behavior
@@ -3998,6 +3997,7 @@ string send_your_message
 string side_sheet_accessibility_pane_title
 string side_sheet_behavior
 string status_bar_notification_info_overflow
+string whatsapp
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog

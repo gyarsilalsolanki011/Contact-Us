@@ -8,9 +8,9 @@
     <string name="email_address">Email Address</string>
     <string name="email_id">gyarsilalsonki011@gmail.com</string>
     <string name="image">Image Description</string>
-    <string name="phone_no">Phone No</string>
-    <string name="phone_number">+917620824421</string>
+    <string name="phone_number">+91******4421</string>
     <string name="send_your_message">Send Your Message</string>
+    <string name="whatsapp">Whatsapp Me</string>
     <style name="Base.Theme.ContactUS" parent="Theme.Material3.DayNight.NoActionBar">
         
         

@@ -26,9 +26,6 @@ public final class FragmentContactUsBinding implements ViewBinding {
   public final ImageView bgImg;
 
   @NonNull
-  public final TextView call;
-
-  @NonNull
   public final FrameLayout cardView;
 
   @NonNull
@@ -76,16 +73,18 @@ public final class FragmentContactUsBinding implements ViewBinding {
   @NonNull
   public final ImageView share;
 
+  @NonNull
+  public final TextView whatsapp;
+
   private FragmentContactUsBinding(@NonNull RelativeLayout rootView, @NonNull ImageView bgImg,
-      @NonNull TextView call, @NonNull FrameLayout cardView, @NonNull TextView contact,
-      @NonNull TextView feedback, @NonNull ImageView github, @NonNull ImageView image,
-      @NonNull ImageView imgMob, @NonNull RelativeLayout imgProfile, @NonNull ImageView instagram,
-      @NonNull LinearLayout lin1, @NonNull LinearLayout lin2, @NonNull LinearLayout lin3,
-      @NonNull View lineView, @NonNull ImageView linkedin, @NonNull ImageView mailImg,
-      @NonNull TextView sendYourMessage, @NonNull ImageView share) {
+      @NonNull FrameLayout cardView, @NonNull TextView contact, @NonNull TextView feedback,
+      @NonNull ImageView github, @NonNull ImageView image, @NonNull ImageView imgMob,
+      @NonNull RelativeLayout imgProfile, @NonNull ImageView instagram, @NonNull LinearLayout lin1,
+      @NonNull LinearLayout lin2, @NonNull LinearLayout lin3, @NonNull View lineView,
+      @NonNull ImageView linkedin, @NonNull ImageView mailImg, @NonNull TextView sendYourMessage,
+      @NonNull ImageView share, @NonNull TextView whatsapp) {
     this.rootView = rootView;
     this.bgImg = bgImg;
-    this.call = call;
     this.cardView = cardView;
     this.contact = contact;
     this.feedback = feedback;
@@ -102,6 +101,7 @@ public final class FragmentContactUsBinding implements ViewBinding {
     this.mailImg = mailImg;
     this.sendYourMessage = sendYourMessage;
     this.share = share;
+    this.whatsapp = whatsapp;
   }
 
   @Override
@@ -134,12 +134,6 @@ public final class FragmentContactUsBinding implements ViewBinding {
       id = R.id.bg_img;
       ImageView bgImg = ViewBindings.findChildViewById(rootView, id);
       if (bgImg == null) {
-        break missingId;
-      }
-
-      id = R.id.call;
-      TextView call = ViewBindings.findChildViewById(rootView, id);
-      if (call == null) {
         break missingId;
       }
 
@@ -239,9 +233,15 @@ public final class FragmentContactUsBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentContactUsBinding((RelativeLayout) rootView, bgImg, call, cardView, contact,
+      id = R.id.whatsapp;
+      TextView whatsapp = ViewBindings.findChildViewById(rootView, id);
+      if (whatsapp == null) {
+        break missingId;
+      }
+
+      return new FragmentContactUsBinding((RelativeLayout) rootView, bgImg, cardView, contact,
           feedback, github, image, imgMob, imgProfile, instagram, lin1, lin2, lin3, lineView,
-          linkedin, mailImg, sendYourMessage, share);
+          linkedin, mailImg, sendYourMessage, share, whatsapp);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
