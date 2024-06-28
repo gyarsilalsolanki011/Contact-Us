@@ -3,7 +3,7 @@
     <color name="black">#FF000000</color>
     <color name="blue">#050559</color>
     <color name="white">#FFFFFFFF</color>
-    <string name="app_name">Contact US</string>
+    <string name="app_name">Contact Us</string>
     <string name="ask_your_query">Ask Your Query</string>
     <string name="email_address">Email Address</string>
     <string name="email_id">gyarsilalsonki011@gmail.com</string>
